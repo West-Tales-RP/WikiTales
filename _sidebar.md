@@ -1,5 +1,5 @@
 * **Inicio**
-  * [Bienvenida](/README.md)
+  * [Bienvenida](README.md)
 
 * **Normativas**
   * [Normativa general](normativas/general.md)
