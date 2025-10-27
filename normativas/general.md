@@ -1,31 +1,4 @@
-# Normativa de West Tales
-
-## Tabla de contenidos
-
-- [1. CONCEPTOS BÁSICOS](#_1-conceptos-bÁsicos)
-  - [1.1. PRINCIPIO DE CORTESÍA](#_11-principio-de-cortesÍa)
-  - [1.2. IN CHARACTER Y OUT OF CHARACTER](#_12-in-character-y-out-of-character)
-  - [1.3. METAGAMING](#_13-metagaming)
-  - [1.4. POWERGAMING](#_14-powergaming)
-  - [1.5. DEATHMATCH](#_15-deathmatch)
-  - [1.6. CHARACTER KILL](#_16-character-kill)
-- [2. ENTORNO E INTERPRETACIÓN](#_2-entorno-e-interpretaciÓn)
-  - [2.1. ZONA DE ROL](#_21-zona-de-rol)
-  - [2.2. INTERPRETACIÓN DEL PERSONAJE](#_22-interpretación-del-personaje)
-  - [2.3. EVASIÓN DE ROL](#_23-evasiÓn-de-rol)
-  - [2.4. LOS COMANDOS /ME Y /DO](#_24-los-comandos-me-y-do)
-  - [2.5. LA FIGURA DEL GAME MASTER Y EL ENTORNO](#_25-la-figura-del-game-master-y-el-entorno)
-  - [2.6. TESTIGOS Y AUXILIO](#_26-testigos-y-auxilio)
-  - [2.7. ROL DE HERIDAS](#_27-rol-de-heridas)
-  - [2.8. ACCIONES PROHIBIDAS (PVE)](#_28-acciones-prohibidas-pve)
-- [3. INTERACCIONES ENTRE PERSONAJES](#_3-interacciones-entre-personajes)
-  - [3.1. SITUACIONES DE PVP Y SUS CONSECUENCIAS](#_31-situaciones-de-pvp-y-sus-consecuencias)
-  - [3.2. ACCIONES PROHIBIDAS (PVP)](#_32-acciones-prohibidas-pvp)
-  - [3.3. ROBOS Y ATRACOS](#_33-robos-y-atracos)
-  - [3.4. SECUESTROS](#_34-secuestros)
-  - [3.5. GUERRA DE GRUPOS](#_35-guerra-de-grupos)
-  - [3.6. PERSONALIZACIÓN DE PERSONAJES](#_36-personalizaciÓn-de-personajes)
-- [4. ZONAS CON ENTORNO](#_4-zonas-con-entorno)
+# NORMATIVA DE WEST TALES
 
 ## 1. CONCEPTOS BÁSICOS
 
