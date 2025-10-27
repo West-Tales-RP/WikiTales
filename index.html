@@ -1,28 +1,79 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Wiki West Tales RP</title>
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/dark.css" />
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/dark.css">
 </head>
 <body>
   <div id="app">Cargando la wiki...</div>
   <script>
     window.$docsify = {
       name: 'West Tales RP',
+      repo: '',
       loadSidebar: true,
       subMaxLevel: 2,
       auto2top: true,
+      homepage: 'README.md',
       search: 'auto',
+      
+      // Configuración de alias para asegurar que _sidebar.md se cargue correctamente
       alias: {
-        '/.*/_sidebar.md': '/_sidebar.md'
+        '/.*/_sidebar.md': '/_sidebar.md',
+        '/_sidebar.md': '/_sidebar.md'
       },
-      sidebarDisplayLevel: 1 // Mostrar solo el primer nivel inicialmente
+      
+      // Configuración de rutas basePath
+      basePath: '/',
+      relativePath: false,
+      
+      // Debug: mostrar errores
+      notFoundPage: true,
+      
+      // Configuración de búsqueda
+      search: {
+        maxAge: 86400000,
+        paths: 'auto',
+        placeholder: 'Buscar...',
+        noData: 'No hay resultados',
+        depth: 2
+      }
     }
   </script>
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+  
+  <!-- Docsify core -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
+  
+  <!-- Plugin de búsqueda -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
+  
+  <!-- Script de debugging (temporal) -->
+  <script>
+    window.addEventListener('load', function() {
+      console.log('Docsify cargado');
+      console.log('Intentando cargar _sidebar.md desde:', window.location.origin + '/_sidebar.md');
+      
+      // Verificar si el archivo existe
+      fetch('/_sidebar.md')
+        .then(response => {
+          if (response.ok) {
+            console.log('✅ _sidebar.md encontrado');
+            return response.text();
+          } else {
+            console.error('❌ _sidebar.md NO encontrado. Status:', response.status);
+          }
+        })
+        .then(text => {
+          if (text) {
+            console.log('Contenido de _sidebar.md:', text);
+          }
+        })
+        .catch(error => {
+          console.error('Error al cargar _sidebar.md:', error);
+        });
+    });
+  </script>
 </body>
 </html>
