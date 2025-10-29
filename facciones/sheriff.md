@@ -1,4 +1,4 @@
-# Facción Policial: Sheriff del Condado de West Elizabeth
+# Sheriff del Condado de West Elizabeth
 
 El Sheriff es la máxima autoridad **judicial y policial** en el condado de West Elizabeth. No responde al alcalde, sino a la ley y a la comunidad que lo eligió. Su jurisdicción abarca **Blackwater, sus alrededores rurales y zonas limítrofes como Henningan’s Stead**, siempre que el rol lo justifique.
 
@@ -19,7 +19,7 @@ El Sheriff es la máxima autoridad **judicial y policial** en el condado de West
 
 ### Autoridad judicial
 - **Cumple órdenes judiciales** (allanamientos, citaciones, embargos).
-- **Organiza posses** (grupos armados de ciudadanos) para capturar fugitivos o intervenir en zonas sin ley.
+- **Organiza milicias ciudadanas** (grupos armados de ciudadanos) para capturar fugitivos o intervenir en zonas sin ley.
 
 ### Cooperación externa
 - Coordina con **autoridades federales** (U.S. Marshals, Pinkertons) en tramas especiales.
@@ -33,7 +33,7 @@ El Sheriff es la máxima autoridad **judicial y policial** en el condado de West
 |-------|-----------|
 | **Arrestos** | Pruebas, testigos o flagrancia. No RDM. |
 | **Allanamientos** | Orden judicial simulada (requiere rol de investigación previo). |
-| **Formar posse** | Mínimo 2 civiles voluntarios + rol de convocatoria. |
+| **Formar milicias ciudadanas** | Mínimo 2 civiles voluntarios + rol de convocatoria. |
 | **Patrullas activas** | Pueden ser guiadas por GM o autogestionadas (con registro). |
 
 > 🔒 **Neutralidad política**: El sheriff **no participa en decisiones del alcalde**, salvo que afecten directamente al orden público.

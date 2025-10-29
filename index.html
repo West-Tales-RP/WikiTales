@@ -5,7 +5,369 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Wiki West Tales RP</title>
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/dark.css">
+  
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  
+  <style>
+    /* Fondo con la imagen de papel viejo */
+    body {
+      background-color: #d4b896 !important;
+      background-image: url('./papel-textura.jpg') !important;
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+    }
+    
+    /* Contenido principal - Responsivo */
+    .markdown-section {
+      background-color: rgba(255, 252, 245, 0.80) !important;
+      backdrop-filter: blur(2px);
+      max-width: 1120px;
+      line-height: 1.8;
+      padding: 40px 80px;
+      color: #3d2817;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+      border: 1px solid rgba(139, 105, 20, 0.25);
+      margin: 20px auto;
+      border-radius: 3px;
+    }
+    
+    /* Sidebar semi-transparente */
+    .sidebar {
+      background-color: rgba(232, 220, 200, 0.95) !important;
+      backdrop-filter: blur(8px);
+      border-right: 3px solid #8b6914 !important;
+      box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .sidebar-nav {
+      background-color: transparent;
+    }
+    
+    .sidebar-nav li a {
+      color: #5d4a2f !important;
+      font-weight: 500;
+      transition: all 0.3s ease;
+    }
+    
+    .sidebar-nav li a:hover {
+      color: #8b6914 !important;
+      padding-left: 8px;
+    }
+    
+    .sidebar-nav li.active > a {
+      color: #8b6914 !important;
+      font-weight: 700;
+      border-right: 3px solid #8b6914;
+    }
+    
+    /* Nombre de la wiki */
+    .app-name {
+      font-family: 'Georgia', 'Times New Roman', serif;
+      font-weight: bold;
+      color: #5d4a2f !important;
+      text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5);
+      font-size: 1.2em;
+      letter-spacing: 0.5px;
+    }
+    
+    .app-name a {
+      color: #5d4a2f !important;
+    }
+    
+    /* Títulos estilo western */
+    .markdown-section h1 {
+      color: #3d2817;
+      border-bottom: 2px solid #8b6914;
+      padding-bottom: 12px;
+      font-family: 'Georgia', serif;
+      text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.3);
+    }
+    
+    .markdown-section h2,
+    .markdown-section h3,
+    .markdown-section h4 {
+      color: #5d4a2f;
+      font-family: 'Georgia', serif;
+    }
+    
+    /* Enlaces */
+    .markdown-section a {
+      color: #a67c00;
+      font-weight: 500;
+    }
+    
+    .markdown-section a:hover {
+      color: #8b6914;
+    }
+    
+    /* Códigos */
+    .markdown-section pre {
+      background-color: rgba(240, 230, 210, 0.95);
+      border: 1px solid #d4c4a8;
+      border-left: 4px solid #8b6914;
+      overflow-x: auto;
+    }
+    
+    .markdown-section code {
+      background-color: rgba(240, 230, 210, 0.8);
+      color: #5d4a2f;
+      border: 1px solid rgba(228, 220, 200, 0.5);
+    }
+    
+    /* Tablas responsivas */
+    .markdown-section table {
+      border-color: #d4c4a8;
+      background-color: rgba(255, 255, 255, 0.7);
+      display: block;
+      overflow-x: auto;
+      white-space: nowrap;
+    }
+    
+    .markdown-section tr {
+      border-color: #d4c4a8;
+    }
+    
+    .markdown-section tr:nth-child(2n) {
+      background-color: rgba(244, 232, 208, 0.4);
+    }
+    
+    .markdown-section th {
+      background-color: rgba(232, 220, 200, 0.8);
+      color: #5d4a2f;
+      font-weight: bold;
+    }
+    
+    /* Imágenes responsivas */
+    .markdown-section img {
+      max-width: 100%;
+      height: auto;
+    }
+    
+    /* Barra de búsqueda */
+    .search {
+      padding: 6px 0 12px;
+    }
+    
+    .search input {
+      background-color: rgba(255, 252, 245, 0.95) !important;
+      border: 2px solid rgba(139, 105, 20, 0.3) !important;
+      color: #5d4a2f !important;
+      transition: all 0.3s ease;
+    }
+    
+    .search input:focus {
+      border-color: #8b6914 !important;
+      box-shadow: 0 0 0 3px rgba(139, 105, 20, 0.1) !important;
+    }
+    
+    .search input::placeholder {
+      color: #a89276;
+    }
+    
+    /* Resultados de búsqueda */
+    .matching-post {
+      border-bottom: 1px solid rgba(212, 196, 168, 0.5);
+    }
+    
+    .search .results-panel {
+      background-color: rgba(250, 245, 235, 0.98) !important;
+      backdrop-filter: blur(8px);
+      border: 2px solid rgba(139, 105, 20, 0.3);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    }
+    
+    /* Blockquotes estilo carta */
+    .markdown-section blockquote {
+      border-left: 4px solid #8b6914;
+      color: #5d4a2f;
+      background-color: rgba(232, 220, 200, 0.6);
+      font-style: italic;
+    }
+    
+    /* Separadores */
+    .markdown-section hr {
+      border-color: rgba(139, 105, 20, 0.3);
+      border-style: solid;
+    }
+    
+    /* Scrollbar personalizada */
+    ::-webkit-scrollbar {
+      width: 12px;
+      height: 12px;
+    }
+    
+    ::-webkit-scrollbar-track {
+      background: rgba(232, 220, 200, 0.5);
+    }
+    
+    ::-webkit-scrollbar-thumb {
+      background: rgba(139, 105, 20, 0.6);
+      border-radius: 6px;
+      border: 2px solid rgba(232, 220, 200, 0.5);
+    }
+    
+    ::-webkit-scrollbar-thumb:hover {
+      background: rgba(139, 105, 20, 0.8);
+    }
+    
+    /* Mejorar legibilidad en listas */
+    .markdown-section ul,
+    .markdown-section ol {
+      color: #3d2817;
+    }
+    
+    /* Botón de página no encontrada */
+    .markdown-section p.tip,
+    .markdown-section p.warn {
+      background-color: rgba(232, 220, 200, 0.8);
+      border-left-color: #8b6914;
+    }
+    
+    /* ========================================
+       RESPONSIVE DESIGN - Media Queries
+       ======================================== */
+    
+    /* Pantallas muy grandes (monitores grandes) */
+    @media (min-width: 1800px) {
+      .markdown-section {
+        max-width: 1280px;
+        padding: 50px 100px;
+      }
+    }
+    
+    /* Tablets horizontal y pantallas medianas */
+    @media (max-width: 1280px) {
+      .markdown-section {
+        max-width: 900px;
+        padding: 35px 60px;
+      }
+    }
+    
+    /* Tablets vertical */
+    @media (max-width: 992px) {
+      .markdown-section {
+        max-width: 100%;
+        padding: 30px 40px;
+        margin: 15px;
+      }
+      
+      .app-name {
+        font-size: 1.1em;
+      }
+    }
+    
+    /* Móviles grandes y tablets pequeñas */
+    @media (max-width: 768px) {
+      body {
+        background-attachment: scroll;
+        background-size: auto 100%;
+      }
+      
+      .markdown-section {
+        padding: 25px 30px;
+        margin: 10px;
+        background-color: rgba(255, 252, 245, 0.92) !important;
+        font-size: 15px;
+        line-height: 1.7;
+      }
+      
+      .markdown-section h1 {
+        font-size: 1.8em;
+      }
+      
+      .markdown-section h2 {
+        font-size: 1.5em;
+      }
+      
+      .markdown-section h3 {
+        font-size: 1.3em;
+      }
+      
+      .sidebar {
+        background-color: rgba(232, 220, 200, 0.98) !important;
+      }
+      
+      .app-name {
+        font-size: 1em;
+      }
+      
+      /* Tablas con scroll horizontal en móvil */
+      .markdown-section table {
+        font-size: 14px;
+      }
+      
+      /* Códigos con scroll en móvil */
+      .markdown-section pre {
+        font-size: 13px;
+      }
+    }
+    
+    /* Móviles pequeños */
+    @media (max-width: 480px) {
+      .markdown-section {
+        padding: 20px 20px;
+        margin: 8px;
+        background-color: rgba(255, 252, 245, 0.95) !important;
+        font-size: 14px;
+      }
+      
+      .markdown-section h1 {
+        font-size: 1.6em;
+        padding-bottom: 8px;
+      }
+      
+      .markdown-section h2 {
+        font-size: 1.4em;
+      }
+      
+      .markdown-section h3 {
+        font-size: 1.2em;
+      }
+      
+      .search input {
+        font-size: 14px;
+      }
+      
+      /* Reducir padding en listas para móvil */
+      .markdown-section ul,
+      .markdown-section ol {
+        padding-left: 20px;
+      }
+      
+      /* Ajustar blockquotes en móvil */
+      .markdown-section blockquote {
+        padding: 10px 15px;
+        font-size: 14px;
+      }
+      
+      /* Scrollbar más delgada en móvil */
+      ::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+      }
+    }
+    
+    /* Móviles muy pequeños */
+    @media (max-width: 360px) {
+      .markdown-section {
+        padding: 15px 15px;
+        margin: 5px;
+      }
+    }
+    
+    /* Ajustes para modo landscape en móviles */
+    @media (max-height: 500px) and (orientation: landscape) {
+      .markdown-section {
+        padding: 20px 30px;
+      }
+      
+      .app-name {
+        font-size: 0.9em;
+      }
+    }
+  </style>
 </head>
 <body>
   <div id="app">Cargando la wiki...</div>
@@ -17,63 +379,29 @@
       subMaxLevel: 2,
       auto2top: true,
       homepage: 'README.md',
-      search: 'auto',
       
-      // Configuración de alias para asegurar que _sidebar.md se cargue correctamente
       alias: {
         '/.*/_sidebar.md': '/_sidebar.md',
         '/_sidebar.md': '/_sidebar.md'
       },
       
-      // Configuración de rutas basePath
       basePath: '/',
       relativePath: false,
-      
-      // Debug: mostrar errores
       notFoundPage: true,
       
-      // Configuración de búsqueda
       search: {
         maxAge: 86400000,
         paths: 'auto',
-        placeholder: 'Buscar...',
-        noData: 'No hay resultados',
+        placeholder: 'Buscar en la wiki...',
+        noData: 'Sin resultados',
         depth: 2
-      }
+      },
+      
+      themeColor: '#8b6914'
     }
   </script>
   
-  <!-- Docsify core -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
-  
-  <!-- Plugin de búsqueda -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
-  
-  <!-- Script de debugging (temporal) -->
-  <script>
-    window.addEventListener('load', function() {
-      console.log('Docsify cargado');
-      console.log('Intentando cargar _sidebar.md desde:', window.location.origin + '/_sidebar.md');
-      
-      // Verificar si el archivo existe
-      fetch('/_sidebar.md')
-        .then(response => {
-          if (response.ok) {
-            console.log('✅ _sidebar.md encontrado');
-            return response.text();
-          } else {
-            console.error('❌ _sidebar.md NO encontrado. Status:', response.status);
-          }
-        })
-        .then(text => {
-          if (text) {
-            console.log('Contenido de _sidebar.md:', text);
-          }
-        })
-        .catch(error => {
-          console.error('Error al cargar _sidebar.md:', error);
-        });
-    });
-  </script>
 </body>
 </html>

@@ -1,4 +1,4 @@
-# Facción Gubernamental: Alcalde de Blackwater
+# Alcalde de Blackwater
 
 El Alcalde es la máxima autoridad civil de la ciudad de Blackwater. No es un jefe de policía ni un juez, sino un **líder político, administrativo y diplomático** cuyo poder radica en la influencia, la organización y la capacidad de moldear el entorno mediante decisiones colectivas y proyectos comunitarios.
 

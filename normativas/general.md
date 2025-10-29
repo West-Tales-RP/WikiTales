@@ -1,8 +1,7 @@
-# NORMATIVA DE WEST TALES
 
 ---
-
 ## 1. CONCEPTOS BÁSICOS
+---
 
 ### 1.1. PRINCIPIO DE CORTESÍA
 
@@ -105,8 +104,8 @@ No existe en nuestro servidor lo que en el rol entendemos como PK; un personaje 
 - No se aceptará una petición de CK voluntaria siempre que el Staff sospeche que ésta se lleva a cabo para sumar cargos de asesinato a un jugador en un enfrentamiento sin CK. En estos casos, debe solicitarse permiso al Staff para valorar el caso y establecerse un consentimiento entre la víctima y el asaltante; indistintamente de ésto, el Staff se reserva la última palabra en la resolución.
 
 ---
-
 ## 2. ENTORNO E INTERPRETACIÓN
+---
 
 ### 2.1. ZONA DE ROL
 
@@ -298,8 +297,8 @@ Los comandos `/testigo` y `/auxilio` son obligatorios para alertar a las fuerzas
   - Está prohibido su uso indiscriminado de forma que interfiera en la experiencia de juego de los demás; por lo tanto, su uso debe ser breve y específico.
 
 ---
-
 ## 3. INTERACCIONES ENTRE PERSONAJES
+---
 
 ### 3.1. SITUACIONES DE PVP Y SUS CONSECUENCIAS
 
@@ -366,8 +365,8 @@ West Tales está ambientado a finales del siglo XIX, por lo que todos los person
 Los apodos no podrán contener contenido explícito y no se permitirán cambios injustificados. Para cambiar un apodo, se debe comunicar a la administración mediante un ticket. Además los apodos deben ser identificativos y únicos, quedando prohibidos apodos genéricos como «Forajido», «Tipo de incógnito», etc.
 
 ---
-
 ## 4. ZONAS CON ENTORNO
+---
 
 En el servidor tenemos dos tipos de zonas con entorno: legales (**VERDE**) e ilegales (**ROJO**). Cada una sujeta a una serie de normas:
 
