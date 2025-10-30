@@ -22,8 +22,6 @@ Tall Trees no es una zona especialmente poblada, ya que cuenta tan solo con un *
 
 ![talltreesimagen](https://i.postimg.cc/7YcmYs6y/talltreesimagen.png)
 
-
-
 ---
 ## ASENTAMIENTOS
 ---
@@ -32,6 +30,8 @@ Tall Trees no es una zona especialmente poblada, ya que cuenta tan solo con un *
 
 ### MANZANITA POST
 
+<div align="justify">
+
 >''Un nuevo puesto comercial regentado por inmigrantes de origen noruego, intentan conseguir que el puesto comercial de Manzanita sea un lugar de encuentro entre cazadores de la zona''.
 
 Manzanita Post es un **pequeño asentamiento** que cuenta con un pequeño puesto comercial que abastece a viajeros que intentan adentrarse entre los bosques de Tall Trees.
@@ -39,6 +39,8 @@ Manzanita Post es un **pequeño asentamiento** que cuenta con un pequeño puesto
 El puesto cuenta con unas casetas de madera para los pocos moradores que habitan, además de disponer de una zona donde aquellos forasteros que deseen montar sus tiendas de campaña en la zona puedan establecerse unos días y cocinar las piezas que cacen.
 
 Habitualmente, los habitantes de Manzanita Post reciben las **visitas de algunos osos** de la zona. A priori, aunque los osos no se suelen mostrar hostiles y únicamente se aproximan a zonas colindantes a por comida, se han dado casos de ataques de estos animales al sentirse amenazados. En general, se recomienda no molestar a estos animales en los alrededores de Manzanita Post, salvo que se muestren hostiles o corra peligro la población.
+
+</div>
 
 <div align="center">
 
@@ -52,9 +54,13 @@ Habitualmente, los habitantes de Manzanita Post reciben las **visitas de algunos
 
 ### AURORA BASIN
 
+<div align="justify">
+
 Aurora Basin es una **cuenca de agua** que se ubica en la región de Tall Trees, gracias a la cual el Bajo Río Montana cobra vida. Ubicada en el centro de un denso **bosque de secuoyas**, donde se abre un **gran claro**, cuenta con una cabaña abandonada que le da un aún más idílico aspecto al lugar. 
 
 Tratándose de una** zona de paso para los animales**, donde habitualmente se paran a beber si no hay presencia de cazadores, **la pesca** también constituye una grata actividad que llevar a cabo en este lugar, para quien desee disputarse las piezas de pescado con los osos que por ahí traten de alimentarse. 
+
+</div>
 
 <div align="center">
 
