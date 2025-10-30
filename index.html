@@ -6,13 +6,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Wiki West Tales RP</title>
   
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <!-- Cache busting: Cambia v=1.0.1 cada vez que actualices el CSS -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css?v=1.0.1">
+  
+  <!-- Meta tags para controlar el caché -->
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
   
   <style>
     /* Fondo con la imagen de papel viejo */
     body {
       background-color: #d4b896 !important;
-      background-image: url('./papel-textura.jpg') !important;
+      background-image: url('./papel-textura.jpg?v=1.0.1') !important;
       background-size: cover;
       background-position: center;
       background-attachment: fixed;
@@ -403,5 +409,17 @@
   
   <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
+  
+  <!-- Cache busting script -->
+  <script>
+    // Agregar timestamp a las búsquedas para evitar caché
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.getRegistrations().then(function(registrations) {
+        for(let registration of registrations) {
+          registration.unregister();
+        }
+      });
+    }
+  </script>
 </body>
 </html>

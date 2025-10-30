@@ -6,7 +6,10 @@
 
 * **Trasfondo**
   * [Código penal](trasfondo/codigopenal.md)
-  * [Tall Trees](trasfondo/talltrees)
+  * [Great Plains](trasfondo/greatplains.md)
+  * [Big Valley (EN CONSTRUCCIÓN)](trasfondo/bigvalley.md)
+  * [Tall Trees](trasfondo/talltrees.md)
+  * [Henningan's Stead (EN CONSTRUCCIÓN)](trasfondo/henninganstead.md)
 
 * **Facciones**
   * [Alcalde de Blackwater](facciones/alcalde.md)
