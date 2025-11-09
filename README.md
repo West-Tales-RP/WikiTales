@@ -1,7 +1,5 @@
 # West Tales RP
 
----
-
 Bienvenido a la Wiki oficial de West Tales RP, aquí podrás consultar toda la información necesaria para disfrutar al máximo de nuestro servidor.
 
 Para cualquier duda y/o sugerencia estaremos encantados de atenderte en nuestro [Discord](https://discord.gg/uTCKJYkgwM) oficial.
