@@ -24,7 +24,7 @@ Debido al auge de la revolución industrial, Blackwater cuenta con el principal 
 
 <div align="center">
 
-![West Elizabeth](https://cdn.discordapp.com/attachments/636572768082853888/1437138209162268843/image.png?ex=691226c1&is=6910d541&hm=eda4f705633711007e4e9838df1f01b68932dbe67cfcf45c22c3c955d7e1bee7&)
+![West Elizabeth](sistemas\westelizabeth.png)
 
 </div>
 
@@ -44,7 +44,7 @@ Vamos a exponer el panel para tratar posteriormente cada punto con detalle:
 
 <div align="center">
 
-![*Nota: Estos valores son hipotéticos para ver el funcionamiento del sistema.*](https://cdn.discordapp.com/attachments/636572768082853888/1437138151045861467/image.png?ex=691226b3&is=6910d533&hm=bbe048ed7a0da6e170a49db7d243af870bb27730be55b05a62e02dfd771ace3e&)
+![*Nota: Estos valores son hipotéticos para ver el funcionamiento del sistema.*](sistemas\ejemplo.png)
 
 </div>
 
@@ -62,6 +62,8 @@ También mide el peso de la iglesia en el territorio y la gravedad de la corrupc
 
 Una sociedad educada será más exigente, menos dócil, querrá libertades y será menos temerosa de Dios y más propensa al raciocinio que a la barbarie.
 
+> Puedes consultar los diferentes niveles de esta estadística al detalle [aquí](sistemas/educacion.md)
+
 ### SEGURIDAD
 
 Mide la presencia de los agentes de la Ley en West Elizabeth, así como su eficiencia.
@@ -71,6 +73,8 @@ Define también la fuerza destacada en cada lugar susceptible de ser víctima de
 Define también la fuerza de las penas y el riesgo de los grandes golpes, así como la intensidad o profundidad de las investigaciones.
 
 Esta estadística también irá ligada a la actividad y proactividad de los jugadores agentes de la ley; también valorando el fairplay y coherencia a la vez. Asimismo, también debe condicionar los objetivos de los criminales, como la puntuación de Riqueza. También se ve afectada por la corrupción, los sobornos y los abusos de autoridad.
+
+> Puedes consultar los diferentes niveles de esta estadística al detalle [aquí](sistemas/seguridad.md)
 
 ### RIQUEZA
 
@@ -82,11 +86,15 @@ Sobra decir que una riqueza elevada atraerá a gente interesada en ella, ya sea 
 
 Puesto que los delitos tendrán impacto sobre la riqueza, los criminales que busquen lucro deberán buscar el equilibrio para encontrar el momento idóneo para cada golpe o asalto.
 
+> Puedes consultar los diferentes niveles de esta estadística al detalle [aquí](sistemas/riqueza.md)
+
 ### LIBERTAD
 
 Esta estadística mide, valga la redundancia, la libertad de los habitantes de la región: el derecho a reunión, protesta, opinión, la censura en la prensa, y las represalias legales que todo lo mencionado conlleve.
 
 Esta estadística se verá penalizada por la corrupción legal y política, así como por la falta de transparencia de los actos que dichos estamentos lleven a cabo. La prensa y la búsqueda de la verdad contribuirán positivamente.
+
+> Puedes consultar los diferentes niveles de esta estadística al detalle [aquí](sistemas/libertad.md)
 
 ### DERECHOS DE LA MUJER
 
@@ -94,9 +102,13 @@ Esta estadística mide la igualdad (o ausencia de la misma) de condiciones socia
 
 Antes de continuar debemos hacer hincapié en que, pese a los rangos expuestos, determinado nivel de detalle en los roles seguirá pasando por la normativa de roles sensibles vigente en el servidor.
 
+> Puedes consultar los diferentes niveles de esta estadística al detalle [aquí](sistemas/derechosmujer.md)
+
 ### INTEGRACIÓN CULTURAL
 
 Esta estadística contempla los derechos y la igualdad (o su ausencia) de grupos de población minoritarios (etnia, religión, etc), así como la actitud de la población del entorno frente a las diferencias culturales con el resto del mundo, el rechazo o el interés por los productos extranjeros, etc.
+
+> Puedes consultar los diferentes niveles de esta estadística al detalle [aquí](sistemas/integracioncultural.md)
 
 ### SANIDAD
 
@@ -104,6 +116,10 @@ Esta estadística mide la resiliencia o vulnerabilidad de la población frente a
 
 También es un indicativo de la educación sobre higiene y logros científicos de la sociedad.
 
+> Puedes consultar los diferentes niveles de esta estadística al detalle [aquí](sistemas/sanidad.md)
+
 ### RELACIONES CON EL SENADO
 
 Esta estadística mide, fundamentalmente, la legitimidad (positiva o negativa) del gobierno vigente en el asentamiento, según los estándares del Estado Mayor.
+
+> Puedes consultar los diferentes niveles de esta estadística al detalle [aquí](sistemas/relacionsenado.md)
