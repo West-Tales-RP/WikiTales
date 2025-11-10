@@ -1,8 +1,4 @@
-<div align="center">
-
 # Sistema de Estadísticas del Asentamiento de Blackwater
-
-</div>
 
 ## Propósito del sistema
 
