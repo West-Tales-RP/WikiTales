@@ -13,7 +13,7 @@
 
 * **Sistemas**
   * [Asentamientos](sistemas/asentamientos.md)
-  *[Atributos y tiradas](sistemas/atributos.md)
+  * [Atributos y tiradas](sistemas/atributos.md)
   * [Facciones ilegales](sistemas/ilegales.md)
 
 

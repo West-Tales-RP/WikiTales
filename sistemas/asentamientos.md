@@ -24,7 +24,7 @@ Debido al auge de la revolución industrial, Blackwater cuenta con el principal 
 
 <div align="center">
 
-![West Elizabeth](sistemas\westelizabeth.png)
+![West Elizabeth](https://i.postimg.cc/ZKmsRc0D/westelizabeth.png)
 
 </div>
 
@@ -44,7 +44,7 @@ Vamos a exponer el panel para tratar posteriormente cada punto con detalle:
 
 <div align="center">
 
-![*Nota: Estos valores son hipotéticos para ver el funcionamiento del sistema.*](sistemas\ejemplo.png)
+![*Nota: Estos valores son hipotéticos para ver el funcionamiento del sistema.*](https://i.postimg.cc/4NG2d5n2/ejemplo.png)
 
 </div>
 
