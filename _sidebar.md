@@ -9,7 +9,7 @@
   * [Great Plains](trasfondo/greatplains.md)
   * [Big Valley (EN CONSTRUCCIÓN)](trasfondo/bigvalley.md)
   * [Tall Trees](trasfondo/talltrees.md)
-  * [Henningan's Stead (EN CONSTRUCCIÓN)](trasfondo/henninganstead.md)
+  * [Henningan's Stead](trasfondo/henninganstead.md)
 
 * **Sistemas**
   * [Asentamientos](sistemas/asentamientos.md)
